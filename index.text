@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table and Form</title>
+  </head>
+  <body style="background-image:url(21.jpg);">
+    <div style="background-color:rgb(163, 20, 196); width:1000px;">
+        <table border="5" style=" color:aliceblue;width:1000px;" >
+            <tr>
+               <th>Name</th>
+               <th>G/B</th>
+               <th>Address</th>
+               <th>E-mail</th>
+               <th>age</th>
+            </tr>
+            
+            <tr>
+               <td>Nada</td>
+               <td rowspan="2">girls</td>
+               <td>sohag</td>
+               <td>n@gmail.com</td>
+               <td>20</td>
+            </tr>
+            
+            <tr>
+               <td>Ereen</td>
+               <td>sohag</td>
+               <td>e@gmail.com</td>
+               <td>20</td>
+            </tr>
+            
+            <tr>
+               <td>Kareem</td>
+               <td rowspan="2">boys</td>
+               <td>sohag</td>
+               <td>k@gmail.com</td>
+               <td>20</td>
+            </tr>
+
+            <tr>
+                <td>abanoub</td>
+                <td>sohag</td>
+                <td>a@gmail.com</td>
+                <td>14</td>
+            </tr>
+
+            <tfoot style="background-color:black;">
+            <tr>
+            <td colspan="4">sum age:</td>
+            <td>47</td>
+            </tr>
+            </tfoot>
+         
+         </table>
+      </div>
+         <br>
+         <hr>
+         <hr>
+
+         <form style="color:rgb(121, 14, 221)">
+            <p><b>fill the follwing form</b></p>
+            <label>Name</label>
+            <input  type="text"  placeholder="Write Name">
+            <br><br>
+            <label>Age</label>
+            <input type="age" placeholder="Write Age" >
+            <br><br>
+            <label>Address</label>
+            <input type="address" placeholder="Write Address">
+            <br><br>
+            <label>Password</label>
+            <input type="password" placeholder="Write Password">
+            <br><br>
+            <label>Email</label>
+            <input type="email" placeholder="Write E-mail">
+            <br><br>
+            <input  type="submit" value="Submit">
+            <input  type="submit" value="Reset">
+         </form>
+
+        
+   </body>
+</html>
